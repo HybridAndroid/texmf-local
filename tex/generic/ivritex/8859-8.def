@@ -1,0 +1,183 @@
+%%
+%% This is file `8859-8.def',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% hebinp.dtx  (with options: `8859-8')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright 1997-1998 Boris Lavva and any individual authors
+%% listed elsewhere in this file. All rights reserved.
+%% 
+%% For further copyright information, and conditions for modification
+%% and distribution, see any other copyright notices in this file.
+%% 
+%% This file is contributed to the Babel system, release 3.6.
+%% ----------------------------------------------------------
+%%   This system is distributed in the hope that it will be useful,
+%%   but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%% 
+%%   For error reports concerning UNCHANGED versions of this file no
+%%   more than one year old, see bugs.txt.
+%% 
+%%   Please do not request updates from me directly.  Primary
+%%   distribution is through the CTAN archives.
+%% 
+%% 
+%% IMPORTANT COPYRIGHT NOTICE:
+%% 
+%% You are NOT ALLOWED to distribute this file alone.
+%% 
+%% You are allowed to distribute this file under the condition that it
+%% is distributed together with all the files listed in manifest.txt.
+%% 
+%% If you receive only some of these files from someone, complain!
+%% 
+%% 
+%% Permission is granted to customize the declarations in this file to
+%% serve the needs of your installation, provided that you comply with
+%% the conditions in the file legal.txt.
+%% 
+%% However, NO PERMISSION is granted to distribute a modified version
+%% of this file under its original name.
+%% 
+%% 
+%% MODIFICATION ADVICE:
+%% 
+%% If you want to customize this file, it is best to make a copy of
+%% the source file(s) from which it was produced.  Use a different
+%% name for your copy(ies) and modify the copy(ies); this will ensure
+%% that your modifications do not get overwritten when you install a
+%% new release of the standard system.
+%% 
+%% You can then easily distribute your modifications by distributing
+%% the modified and renamed copy of the source file, together with a
+%% suitable .ins file, taking care to observe the conditions in
+%% legal.txt; this will ensure that other users can safely use
+%% your modifications.
+%% 
+%% The names of the source files used are shown above.
+%% 
+%% 
+ \ProvidesFile{8859-8.def}
+        [2003/11/02 v1.1a Hebrew input encoding file]
+\makeatletter
+\ProvideTextCommandDefault{\textdegree}{\ensuremath{{^\circ}}}
+\ProvideTextCommandDefault{\textonehalf}{\ensuremath{\frac12}}
+\ProvideTextCommandDefault{\textonequarter}{\ensuremath{\frac14}}
+\ProvideTextCommandDefault{\textthreequarters}{\ensuremath{\frac34}}
+\ProvideTextCommandDefault{\textcent}
+   {\TextSymbolUnavailable\textcent}
+\ProvideTextCommandDefault{\textyen}
+   {\TextSymbolUnavailable\textyen}
+\ProvideTextCommandDefault{\textcurrency}
+   {\TextSymbolUnavailable\textcurrency}
+\ProvideTextCommandDefault{\textbrokenbar}
+   {\TextSymbolUnavailable\textbrokenbar}
+\providecommand{\mathonesuperior}{{^1}}
+\providecommand{\maththreesuperior}{{^3}}
+\providecommand{\mathtwosuperior}{{^2}}
+\DeclareInputText{160}{\nobreakspace}
+\DeclareInputText{162}{\textcent}
+\DeclareInputText{163}{\pounds}
+\DeclareInputText{164}{\textcurrency}
+\DeclareInputText{165}{\textyen}
+\DeclareInputText{166}{\textbrokenbar}
+\DeclareInputText{167}{\S}
+\DeclareInputText{168}{\"{}}
+\DeclareInputText{169}{\textcopyright}
+\DeclareInputMath{170}{\times}
+\DeclareInputText{171}{\guillemotleft}
+\DeclareInputMath{172}{\lnot}
+\DeclareInputText{173}{\-}
+\DeclareInputText{174}{\textregistered}
+\DeclareInputText{175}{\@tabacckludge={}}
+\DeclareInputText{176}{\textdegree}
+\DeclareInputMath{177}{\pm}
+\DeclareInputMath{178}{\mathtwosuperior}
+\DeclareInputMath{179}{\maththreesuperior}
+\DeclareInputText{180}{\@tabacckludge'{}}
+\DeclareInputMath{181}{\mu}
+\DeclareInputText{182}{\P}
+\DeclareInputText{183}{\textperiodcentered}
+\DeclareInputText{184}{\c\ }
+\DeclareInputMath{185}{\mathonesuperior}
+\DeclareInputMath{186}{\div}
+\DeclareInputText{187}{\guillemotright}
+\DeclareInputText{188}{\textonequarter}
+\DeclareInputText{189}{\textonehalf}
+\DeclareInputText{190}{\textthreequarters}
+\DeclareInputText{224}{\hebalef}
+\DeclareInputText{225}{\hebbet}
+\DeclareInputText{226}{\hebgimel}
+\DeclareInputText{227}{\hebdalet}
+\DeclareInputText{228}{\hebhe}
+\DeclareInputText{229}{\hebvav}
+\DeclareInputText{230}{\hebzayin}
+\DeclareInputText{231}{\hebhet}
+\DeclareInputText{232}{\hebtet}
+\DeclareInputText{233}{\hebyod}
+\DeclareInputText{234}{\hebfinalkaf}
+\DeclareInputText{235}{\hebkaf}
+\DeclareInputText{236}{\heblamed}
+\DeclareInputText{237}{\hebfinalmem}
+\DeclareInputText{238}{\hebmem}
+\DeclareInputText{239}{\hebfinalnun}
+\DeclareInputText{240}{\hebnun}
+\DeclareInputText{241}{\hebsamekh}
+\DeclareInputText{242}{\hebayin}
+\DeclareInputText{243}{\hebfinalpe}
+\DeclareInputText{244}{\hebpe}
+\DeclareInputText{245}{\hebfinaltsadi}
+\DeclareInputText{246}{\hebtsadi}
+\DeclareInputText{247}{\hebqof}
+\DeclareInputText{248}{\hebresh}
+\DeclareInputText{249}{\hebshin}
+\DeclareInputText{250}{\hebtav}
+\newcommand{\DisableNikud}{%
+  \DeclareInputText{192}{}%
+  \DeclareInputText{193}{}%
+  \DeclareInputText{194}{}%
+  \DeclareInputText{195}{}%
+  \DeclareInputText{196}{}%
+  \DeclareInputText{197}{}%
+  \DeclareInputText{198}{}%
+  \DeclareInputText{199}{}%
+  \DeclareInputText{200}{}%
+  \DeclareInputText{201}{}%
+  \DeclareInputText{203}{}%
+  \DeclareInputText{204}{}%
+  \DeclareInputText{205}{}%
+  \DeclareInputText{206}{}%
+  \DeclareInputText{207}{}%
+  \DeclareInputText{208}{}%
+  \DeclareInputText{209}{}%
+  \DeclareInputText{210}{}%
+  \DeclareInputText{211}{}%
+  \DeclareInputText{212}{}%
+  \DeclareInputText{213}{}%
+  \DeclareInputText{214}{}%
+}
+\makeatother
+%%
+%% \CharacterTable
+%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%   Digits        \0\1\2\3\4\5\6\7\8\9
+%%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%%   Dollar        \$     Percent       \%     Ampersand     \&
+%%   Acute accent  \'     Left paren    \(     Right paren   \)
+%%   Asterisk      \*     Plus          \+     Comma         \,
+%%   Minus         \-     Point         \.     Solidus       \/
+%%   Colon         \:     Semicolon     \;     Less than     \<
+%%   Equals        \=     Greater than  \>     Question mark \?
+%%   Commercial at \@     Left bracket  \[     Backslash     \\
+%%   Right bracket \]     Circumflex    \^     Underscore    \_
+%%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%   Right brace   \}     Tilde         \~}
+\endinput
+%%
+%% End of file `8859-8.def'.

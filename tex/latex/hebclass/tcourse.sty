@@ -1,0 +1,28 @@
+%latex2e declaration
+\ProvidesPackage{tcourse}
+
+\renewcommand{\thesection}{\hebshin\hebalef\heblamed\hebhe\ \arabic{section}}
+\newcommand{\ques}[1]{\section{#1}}
+\newcommand{\courseSlogan}[1]{
+{\footnotesize
+\noindent
+\begin{flushleft}
+\hfill
+ #1
+\end{flushleft}
+}}
+\newcommand{\exerciseNumberAndDate}[2]
+{
+\begin{center}
+{\Large\bf \hebtav\hebresh\hebgimel\hebyod\heblamed\ \hebbet\hebyod\hebtav\ \hebmem\hebsamekh ' #1}\\
+\hebtav\hebalef\hebresh\hebyod\hebfinalkaf\ \hebhe\hebgimel\hebshin\hebhe: \L{#2}
+\end{center}
+\vspace{1ex}
+}
+\newcommand{\goodLuck}
+{
+\begin{center}
+{\LARGE \hebbet\hebhe\hebtsadi\heblamed\hebhet\hebhe!}
+\end{center}
+}
+

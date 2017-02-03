@@ -1,0 +1,202 @@
+%%
+%% This is file `cp1255.def',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% hebinp.dtx  (with options: `cp1255')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright 1997-1998 Boris Lavva and any individual authors
+%% listed elsewhere in this file. All rights reserved.
+%% 
+%% For further copyright information, and conditions for modification
+%% and distribution, see any other copyright notices in this file.
+%% 
+%% This file is contributed to the Babel system, release 3.6.
+%% ----------------------------------------------------------
+%%   This system is distributed in the hope that it will be useful,
+%%   but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%% 
+%%   For error reports concerning UNCHANGED versions of this file no
+%%   more than one year old, see bugs.txt.
+%% 
+%%   Please do not request updates from me directly.  Primary
+%%   distribution is through the CTAN archives.
+%% 
+%% 
+%% IMPORTANT COPYRIGHT NOTICE:
+%% 
+%% You are NOT ALLOWED to distribute this file alone.
+%% 
+%% You are allowed to distribute this file under the condition that it
+%% is distributed together with all the files listed in manifest.txt.
+%% 
+%% If you receive only some of these files from someone, complain!
+%% 
+%% 
+%% Permission is granted to customize the declarations in this file to
+%% serve the needs of your installation, provided that you comply with
+%% the conditions in the file legal.txt.
+%% 
+%% However, NO PERMISSION is granted to distribute a modified version
+%% of this file under its original name.
+%% 
+%% 
+%% MODIFICATION ADVICE:
+%% 
+%% If you want to customize this file, it is best to make a copy of
+%% the source file(s) from which it was produced.  Use a different
+%% name for your copy(ies) and modify the copy(ies); this will ensure
+%% that your modifications do not get overwritten when you install a
+%% new release of the standard system.
+%% 
+%% You can then easily distribute your modifications by distributing
+%% the modified and renamed copy of the source file, together with a
+%% suitable .ins file, taking care to observe the conditions in
+%% legal.txt; this will ensure that other users can safely use
+%% your modifications.
+%% 
+%% The names of the source files used are shown above.
+%% 
+%% 
+ \ProvidesFile{cp1255.def}
+        [2003/11/02 v1.1a Hebrew input encoding file]
+\makeatletter
+\ProvideTextCommandDefault{\textdegree}{\ensuremath{{^\circ}}}
+\ProvideTextCommandDefault{\textonehalf}{\ensuremath{\frac12}}
+\ProvideTextCommandDefault{\textonequarter}{\ensuremath{\frac14}}
+\ProvideTextCommandDefault{\textthreequarters}{\ensuremath{\frac34}}
+\ProvideTextCommandDefault{\textflorin}{\textit{f}}
+\ProvideTextCommandDefault{\textcent}
+   {\TextSymbolUnavailable\textcent}
+\ProvideTextCommandDefault{\textyen}
+   {\TextSymbolUnavailable\textyen}
+\ProvideTextCommandDefault{\newsheqel}
+   {\TextSymbolUnavailable\newsheqel}
+\ProvideTextCommandDefault{\textbrokenbar}
+   {\TextSymbolUnavailable\textbrokenbar}
+\ProvideTextCommandDefault{\textperthousand}
+   {\TextSymbolUnavailable\textperthousand}
+\providecommand{\mathonesuperior}{{^1}}
+\providecommand{\maththreesuperior}{{^3}}
+\providecommand{\mathtwosuperior}{{^2}}
+\DeclareInputText{130}{\quotesinglbase}
+\DeclareInputText{131}{\textflorin}
+\DeclareInputText{132}{\quotedblbase}
+\DeclareInputText{133}{\dots}
+\DeclareInputText{134}{\dag}
+\DeclareInputText{135}{\ddag}
+\DeclareInputText{136}{\^{}}
+\DeclareInputText{137}{\textperthousand}
+\DeclareInputText{139}{\guilsinglleft}
+\DeclareInputText{145}{\textquoteleft}
+\DeclareInputText{146}{\textquoteright}
+\DeclareInputText{147}{\textquotedblleft}
+\DeclareInputText{148}{\textquotedblright}
+\DeclareInputText{149}{\textbullet}
+\DeclareInputText{150}{\textendash}
+\DeclareInputText{151}{\textemdash}
+\DeclareInputText{152}{\~{}}
+\DeclareInputText{153}{\texttrademark}
+\DeclareInputText{155}{\guilsinglright}
+\DeclareInputText{160}{\nobreakspace}
+\DeclareInputText{162}{\textcent}
+\DeclareInputText{163}{\pounds}
+\DeclareInputText{164}{\newsheqel}
+\DeclareInputText{165}{\textyen}
+\DeclareInputText{166}{\textbrokenbar}
+\DeclareInputText{167}{\S}
+\DeclareInputText{168}{\"{}}
+\DeclareInputText{169}{\textcopyright}
+\DeclareInputText{171}{\guillemotleft}
+\DeclareInputMath{172}{\lnot}
+\DeclareInputText{173}{\-}
+\DeclareInputText{174}{\textregistered}
+\DeclareInputText{175}{\@tabacckludge={}}
+\DeclareInputText{176}{\textdegree}
+\DeclareInputMath{177}{\pm}
+\DeclareInputMath{178}{\mathtwosuperior}
+\DeclareInputMath{179}{\maththreesuperior}
+\DeclareInputText{180}{\@tabacckludge'{}}
+\DeclareInputMath{181}{\mu}
+\DeclareInputText{182}{\P}
+\DeclareInputText{183}{\textperiodcentered}
+\DeclareInputMath{185}{\mathonesuperior}
+\DeclareInputText{187}{\guillemotright}
+\DeclareInputText{188}{\textonequarter}
+\DeclareInputText{189}{\textonehalf}
+\DeclareInputText{190}{\textthreequarters}
+\DeclareInputText{192}{\hebsheva}
+\DeclareInputText{193}{\hebhatafsegol}
+\DeclareInputText{194}{\hebhatafpatah}
+\DeclareInputText{195}{\hebhatafqamats}
+\DeclareInputText{196}{\hebhiriq}
+\DeclareInputText{197}{\hebtsere}
+\DeclareInputText{198}{\hebsegol}
+\DeclareInputText{199}{\hebpatah}
+\DeclareInputText{200}{\hebqamats}
+\DeclareInputText{201}{\hebholam}
+\DeclareInputText{203}{\hebqubuts}
+\DeclareInputText{204}{\hebdagesh}
+\DeclareInputText{205}{\hebmeteg}
+\DeclareInputText{206}{\hebmaqaf}
+\DeclareInputText{207}{\hebrafe}
+\DeclareInputText{208}{\hebpaseq}
+\DeclareInputText{209}{\hebshindot}
+\DeclareInputText{210}{\hebsindot}
+\DeclareInputText{211}{\hebsofpasuq}
+\DeclareInputText{212}{\hebdoublevav}
+\DeclareInputText{213}{\hebvavyod}
+\DeclareInputText{214}{\hebdoubleyod}
+\DeclareInputText{224}{\hebalef}
+\DeclareInputText{225}{\hebbet}
+\DeclareInputText{226}{\hebgimel}
+\DeclareInputText{227}{\hebdalet}
+\DeclareInputText{228}{\hebhe}
+\DeclareInputText{229}{\hebvav}
+\DeclareInputText{230}{\hebzayin}
+\DeclareInputText{231}{\hebhet}
+\DeclareInputText{232}{\hebtet}
+\DeclareInputText{233}{\hebyod}
+\DeclareInputText{234}{\hebfinalkaf}
+\DeclareInputText{235}{\hebkaf}
+\DeclareInputText{236}{\heblamed}
+\DeclareInputText{237}{\hebfinalmem}
+\DeclareInputText{238}{\hebmem}
+\DeclareInputText{239}{\hebfinalnun}
+\DeclareInputText{240}{\hebnun}
+\DeclareInputText{241}{\hebsamekh}
+\DeclareInputText{242}{\hebayin}
+\DeclareInputText{243}{\hebfinalpe}
+\DeclareInputText{244}{\hebpe}
+\DeclareInputText{245}{\hebfinaltsadi}
+\DeclareInputText{246}{\hebtsadi}
+\DeclareInputText{247}{\hebqof}
+\DeclareInputText{248}{\hebresh}
+\DeclareInputText{249}{\hebshin}
+\DeclareInputText{250}{\hebtav}
+\DeclareInputText{253}{\lefttorightmark}
+\DeclareInputText{254}{\righttoleftmark}
+\makeatother
+%%
+%% \CharacterTable
+%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%   Digits        \0\1\2\3\4\5\6\7\8\9
+%%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%%   Dollar        \$     Percent       \%     Ampersand     \&
+%%   Acute accent  \'     Left paren    \(     Right paren   \)
+%%   Asterisk      \*     Plus          \+     Comma         \,
+%%   Minus         \-     Point         \.     Solidus       \/
+%%   Colon         \:     Semicolon     \;     Less than     \<
+%%   Equals        \=     Greater than  \>     Question mark \?
+%%   Commercial at \@     Left bracket  \[     Backslash     \\
+%%   Right bracket \]     Circumflex    \^     Underscore    \_
+%%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%   Right brace   \}     Tilde         \~}
+\endinput
+%%
+%% End of file `cp1255.def'.

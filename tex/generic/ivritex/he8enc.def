@@ -1,0 +1,205 @@
+%%
+%% This is file `he8enc.def',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% hebrew.fdd  (with options: `HE8enc')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright 1997-1998 Boris Lavva and any individual authors
+%% listed elsewhere in this file. All rights reserved.
+%% 
+%% For further copyright information, and conditions for modification
+%% and distribution, see any other copyright notices in this file.
+%% 
+%% This file is contributed to the Babel system, release 3.6.
+%% ----------------------------------------------------------
+%%   This system is distributed in the hope that it will be useful,
+%%   but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%% 
+%%   For error reports concerning UNCHANGED versions of this file no
+%%   more than one year old, see bugs.txt.
+%% 
+%%   Please do not request updates from me directly.  Primary
+%%   distribution is through the CTAN archives.
+%% 
+%% 
+%% IMPORTANT COPYRIGHT NOTICE:
+%% 
+%% You are NOT ALLOWED to distribute this file alone.
+%% 
+%% You are allowed to distribute this file under the condition that it
+%% is distributed together with all the files listed in manifest.txt.
+%% 
+%% If you receive only some of these files from someone, complain!
+%% 
+%% 
+%% Permission is granted to customize the declarations in this file to
+%% serve the needs of your installation, provided that you comply with
+%% the conditions in the file legal.txt.
+%% 
+%% However, NO PERMISSION is granted to distribute a modified version
+%% of this file under its original name.
+%% 
+%% 
+%% MODIFICATION ADVICE:
+%% 
+%% If you want to customize this file, it is best to make a copy of
+%% the source file(s) from which it was produced.  Use a different
+%% name for your copy(ies) and modify the copy(ies); this will ensure
+%% that your modifications do not get overwritten when you install a
+%% new release of the standard system.
+%% 
+%% You can then easily distribute your modifications by distributing
+%% the modified and renamed copy of the source file, together with a
+%% suitable .ins file, taking care to observe the conditions in
+%% legal.txt; this will ensure that other users can safely use
+%% your modifications.
+%% 
+%% The names of the source files used are shown above.
+%% 
+%% 
+\ProvidesFile{HE8enc.def}
+%% The recoded Omega font (only Hebrew glyphs. Lacks other glyphs)
+%% The culmus fonts:
+         [8-bit Hebrew font encoding]
+\DeclareFontEncoding{HE8}{}{}
+\DeclareFontSubstitution{HE8}{cmr}{m}{n}
+\DeclareErrorFont{HE8}{cmr}{m}{n}{10}
+\ProvideTextCommand{\textcopyright}{HE8}{\textcircled{\@latin{c}}}
+\ProvideTextCommand{\textregistered}{HE8}{\textcircled{\scshape%
+                                          \@latin{r}}}
+\ProvideTextCommand{\texttrademark}{HE8}{\textsuperscript{\@latin{TM}}}
+\DeclareTextSymbol{\hebalefdagesh}{HE8}{128}
+\let\hebalefmappiq=\hebalefdagesh
+\DeclareTextSymbol{\hebbetdagesh}{HE8}{129}
+\DeclareTextSymbol{\hebgimeldagesh}{HE8}{130}
+\DeclareTextSymbol{\hebdaletdagesh}{HE8}{131}
+\DeclareTextSymbol{\hebhedagesh}{HE8}{132}
+\let\hebhemappiq=\hebhedagesh
+\DeclareTextSymbol{\hebvavdagesh}{HE8}{133}
+\let\hebvavshuruq=\hebvavdagesh
+\DeclareTextSymbol{\hebzayindagesh}{HE8}{134}
+\DeclareTextSymbol{\hebhetdagesh}{HE8}{135}
+\DeclareTextSymbol{\hebtetdagesh}{HE8}{136}
+\DeclareTextSymbol{\hebyoddagesh}{HE8}{137}
+\DeclareTextSymbol{\hebfinalkafdagesh}{HE8}{138}
+\DeclareTextSymbol{\hebkafdagesh}{HE8}{139}
+\DeclareTextSymbol{\heblameddagesh}{HE8}{140}
+\DeclareTextSymbol{\hebfinalmemdagesh}{HE8}{141}
+\DeclareTextSymbol{\hebmemdagesh}{HE8}{142}
+\DeclareTextSymbol{\hebfinalnundagesh}{HE8}{143}
+\DeclareTextSymbol{\hebnundagesh}{HE8}{144}
+\DeclareTextSymbol{\hebsamekhdagesh}{HE8}{145}
+\DeclareTextSymbol{\hebayindagesh}{HE8}{146}
+\DeclareTextSymbol{\hebfinalpedagesh}{HE8}{147}
+\DeclareTextSymbol{\hebpedagesh}{HE8}{148}
+\DeclareTextSymbol{\hebfinaltsadidagesh}{HE8}{149}
+\DeclareTextSymbol{\hebtsadidagesh}{HE8}{150}
+\DeclareTextSymbol{\hebqofdagesh}{HE8}{151}
+\DeclareTextSymbol{\hebreshdagesh}{HE8}{152}
+\DeclareTextSymbol{\hebshindagesh}{HE8}{153}
+\let\hebsindagesh=\hebshindagesh
+\DeclareTextSymbol{\hebtavdagesh}{HE8}{154}
+\DeclareTextSymbol{\hebsheva}{HE8}{192}
+\DeclareTextSymbol{\hebhatafsegol}{HE8}{193}
+\DeclareTextSymbol{\hebhatafpatah}{HE8}{194}
+\DeclareTextSymbol{\hebhatafqamats}{HE8}{195}
+\DeclareTextSymbol{\hebhiriq}{HE8}{196}
+\DeclareTextSymbol{\hebtsere}{HE8}{197}
+\DeclareTextSymbol{\hebsegol}{HE8}{198}
+\DeclareTextSymbol{\hebpatah}{HE8}{199}
+\DeclareTextSymbol{\hebqamats}{HE8}{200}
+\DeclareTextSymbol{\hebholam}{HE8}{201}
+\DeclareTextSymbol{\hebqubuts}{HE8}{203}
+\DeclareTextSymbol{\hebdagesh}{HE8}{204}
+\DeclareTextSymbol{\hebmeteg}{HE8}{205}
+\DeclareTextSymbol{\hebmaqaf}{HE8}{206}
+\DeclareTextSymbol{\hebrafe}{HE8}{207}
+\DeclareTextSymbol{\hebpaseq}{HE8}{208}
+\DeclareTextSymbol{\hebshindot}{HE8}{209}
+\DeclareTextSymbol{\hebsindot}{HE8}{210}
+\DeclareTextSymbol{\hebsofpasuq}{HE8}{211}
+\DeclareTextSymbol{\hebdoublevav}{HE8}{212}
+\DeclareTextSymbol{\hebvavyod}{HE8}{213}
+\DeclareTextSymbol{\hebdoubleyod}{HE8}{214}
+\DeclareTextSymbol{\hebalef}{HE8}{224}
+\DeclareTextSymbol{\hebbet}{HE8}{225}
+\DeclareTextSymbol{\hebgimel}{HE8}{226}
+\DeclareTextSymbol{\hebdalet}{HE8}{227}
+\DeclareTextSymbol{\hebhe}{HE8}{228}
+\DeclareTextSymbol{\hebvav}{HE8}{229}
+\DeclareTextSymbol{\hebzayin}{HE8}{230}
+\DeclareTextSymbol{\hebhet}{HE8}{231}
+\DeclareTextSymbol{\hebtet}{HE8}{232}
+\DeclareTextSymbol{\hebyod}{HE8}{233}
+\DeclareTextSymbol{\hebfinalkaf}{HE8}{234}
+\DeclareTextSymbol{\hebkaf}{HE8}{235}
+\DeclareTextSymbol{\heblamed}{HE8}{236}
+\DeclareTextSymbol{\hebfinalmem}{HE8}{237}
+\DeclareTextSymbol{\hebmem}{HE8}{238}
+\DeclareTextSymbol{\hebfinalnun}{HE8}{239}
+\DeclareTextSymbol{\hebnun}{HE8}{240}
+\DeclareTextSymbol{\hebsamekh}{HE8}{241}
+\DeclareTextSymbol{\hebayin}{HE8}{242}
+\DeclareTextSymbol{\hebfinalpe}{HE8}{243}
+\DeclareTextSymbol{\hebpe}{HE8}{244}
+\DeclareTextSymbol{\hebfinaltsadi}{HE8}{245}
+\DeclareTextSymbol{\hebtsadi}{HE8}{246}
+\DeclareTextSymbol{\hebqof}{HE8}{247}
+\DeclareTextSymbol{\hebresh}{HE8}{248}
+\DeclareTextSymbol{\hebshin}{HE8}{249}
+\DeclareTextSymbol{\hebtav}{HE8}{250}
+\let\hebsin=\hebshin
+\DeclareTextComposite{\.}{HE8}{^^e0}{128}
+\DeclareTextComposite{\.}{HE8}{^^e1}{129}
+\DeclareTextComposite{\.}{HE8}{^^e2}{130}
+\DeclareTextComposite{\.}{HE8}{^^e3}{131}
+\DeclareTextComposite{\.}{HE8}{^^e4}{132}
+\DeclareTextComposite{\.}{HE8}{^^e5}{133}
+\DeclareTextComposite{\.}{HE8}{^^e6}{134}
+\DeclareTextComposite{\.}{HE8}{^^e7}{135}
+\DeclareTextComposite{\.}{HE8}{^^e8}{136}
+\DeclareTextComposite{\.}{HE8}{^^e9}{137}
+\DeclareTextComposite{\.}{HE8}{^^ea}{138}
+\DeclareTextComposite{\.}{HE8}{^^eb}{139}
+\DeclareTextComposite{\.}{HE8}{^^ec}{140}
+\DeclareTextComposite{\.}{HE8}{^^ed}{141}
+\DeclareTextComposite{\.}{HE8}{^^ee}{142}
+\DeclareTextComposite{\.}{HE8}{^^ef}{143}
+\DeclareTextComposite{\.}{HE8}{^^f0}{144}
+\DeclareTextComposite{\.}{HE8}{^^f1}{145}
+\DeclareTextComposite{\.}{HE8}{^^f2}{146}
+\DeclareTextComposite{\.}{HE8}{^^f3}{147}
+\DeclareTextComposite{\.}{HE8}{^^f4}{148}
+\DeclareTextComposite{\.}{HE8}{^^f5}{149}
+\DeclareTextComposite{\.}{HE8}{^^f6}{150}
+\DeclareTextComposite{\.}{HE8}{^^f7}{151}
+\DeclareTextComposite{\.}{HE8}{^^f8}{152}
+\DeclareTextComposite{\.}{HE8}{^^f9}{153}
+\DeclareTextComposite{\.}{HE8}{^^fa}{154}
+\DeclareTextCompositeCommand{\.}{HE8}{"}{\set@low@box{"}\box0}
+\DeclareTextCompositeCommand{\.}{HE8}{'}{\set@low@box{'}\box0}
+%%
+%% \CharacterTable
+%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%   Digits        \0\1\2\3\4\5\6\7\8\9
+%%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%%   Dollar        \$     Percent       \%     Ampersand     \&
+%%   Acute accent  \'     Left paren    \(     Right paren   \)
+%%   Asterisk      \*     Plus          \+     Comma         \,
+%%   Minus         \-     Point         \.     Solidus       \/
+%%   Colon         \:     Semicolon     \;     Less than     \<
+%%   Equals        \=     Greater than  \>     Question mark \?
+%%   Commercial at \@     Left bracket  \[     Backslash     \\
+%%   Right bracket \]     Circumflex    \^     Underscore    \_
+%%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%   Right brace   \}     Tilde         \~}
+%%
+\endinput
+%%
+%% End of file `he8enc.def'.

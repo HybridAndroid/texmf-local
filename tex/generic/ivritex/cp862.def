@@ -1,0 +1,178 @@
+%%
+%% This is file `cp862.def',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% hebinp.dtx  (with options: `cp862')
+%% 
+%% This is a generated file.
+%% 
+%% Copyright 1997-1998 Boris Lavva and any individual authors
+%% listed elsewhere in this file. All rights reserved.
+%% 
+%% For further copyright information, and conditions for modification
+%% and distribution, see any other copyright notices in this file.
+%% 
+%% This file is contributed to the Babel system, release 3.6.
+%% ----------------------------------------------------------
+%%   This system is distributed in the hope that it will be useful,
+%%   but WITHOUT ANY WARRANTY; without even the implied warranty of
+%%   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+%% 
+%%   For error reports concerning UNCHANGED versions of this file no
+%%   more than one year old, see bugs.txt.
+%% 
+%%   Please do not request updates from me directly.  Primary
+%%   distribution is through the CTAN archives.
+%% 
+%% 
+%% IMPORTANT COPYRIGHT NOTICE:
+%% 
+%% You are NOT ALLOWED to distribute this file alone.
+%% 
+%% You are allowed to distribute this file under the condition that it
+%% is distributed together with all the files listed in manifest.txt.
+%% 
+%% If you receive only some of these files from someone, complain!
+%% 
+%% 
+%% Permission is granted to customize the declarations in this file to
+%% serve the needs of your installation, provided that you comply with
+%% the conditions in the file legal.txt.
+%% 
+%% However, NO PERMISSION is granted to distribute a modified version
+%% of this file under its original name.
+%% 
+%% 
+%% MODIFICATION ADVICE:
+%% 
+%% If you want to customize this file, it is best to make a copy of
+%% the source file(s) from which it was produced.  Use a different
+%% name for your copy(ies) and modify the copy(ies); this will ensure
+%% that your modifications do not get overwritten when you install a
+%% new release of the standard system.
+%% 
+%% You can then easily distribute your modifications by distributing
+%% the modified and renamed copy of the source file, together with a
+%% suitable .ins file, taking care to observe the conditions in
+%% legal.txt; this will ensure that other users can safely use
+%% your modifications.
+%% 
+%% The names of the source files used are shown above.
+%% 
+%% 
+  \ProvidesFile{cp862.def}
+        [2003/11/02 v1.1a Hebrew input encoding file]
+\makeatletter
+\ProvideTextCommandDefault{\textdegree}{\ensuremath{{^\circ}}}
+\ProvideTextCommandDefault{\textonehalf}{\ensuremath{\frac12}}
+\ProvideTextCommandDefault{\textonequarter}{\ensuremath{\frac14}}
+\ProvideTextCommandDefault{\textflorin}{\textit{f}}
+\ProvideTextCommandDefault{\textpeseta}{Pt}
+\ProvideTextCommandDefault{\textblacksquare}
+   {\vrule \@width .3em \@height .4em \@depth -.1em\relax}
+\ProvideTextCommandDefault{\textcent}
+   {\TextSymbolUnavailable\textcent}
+\ProvideTextCommandDefault{\textyen}
+   {\TextSymbolUnavailable\textyen}
+\providecommand{\mathtwosuperior}{{^2}}
+\providecommand{\mathordmasculine}{{^o}}
+\providecommand{\mathordfeminine}{{^a}}
+\DeclareInputText{128}{\hebalef}
+\DeclareInputText{129}{\hebbet}
+\DeclareInputText{130}{\hebgimel}
+\DeclareInputText{131}{\hebdalet}
+\DeclareInputText{132}{\hebhe}
+\DeclareInputText{133}{\hebvav}
+\DeclareInputText{134}{\hebzayin}
+\DeclareInputText{135}{\hebhet}
+\DeclareInputText{136}{\hebtet}
+\DeclareInputText{137}{\hebyod}
+\DeclareInputText{138}{\hebfinalkaf}
+\DeclareInputText{139}{\hebkaf}
+\DeclareInputText{140}{\heblamed}
+\DeclareInputText{141}{\hebfinalmem}
+\DeclareInputText{142}{\hebmem}
+\DeclareInputText{143}{\hebfinalnun}
+\DeclareInputText{144}{\hebnun}
+\DeclareInputText{145}{\hebsamekh}
+\DeclareInputText{146}{\hebayin}
+\DeclareInputText{147}{\hebfinalpe}
+\DeclareInputText{148}{\hebpe}
+\DeclareInputText{149}{\hebfinaltsadi}
+\DeclareInputText{150}{\hebtsadi}
+\DeclareInputText{151}{\hebqof}
+\DeclareInputText{152}{\hebresh}
+\DeclareInputText{153}{\hebshin}
+\DeclareInputText{154}{\hebtav}
+\DeclareInputText{155}{\textcent}
+\DeclareInputText{156}{\pounds}
+\DeclareInputText{157}{\textyen}
+\DeclareInputText{158}{\textpeseta}
+\DeclareInputText{159}{\textflorin}
+\DeclareInputText{160}{\@tabacckludge'a}
+\DeclareInputText{161}{\@tabacckludge'\i}
+\DeclareInputText{162}{\@tabacckludge'o}
+\DeclareInputText{163}{\@tabacckludge'u}
+\DeclareInputText{164}{\~n}
+\DeclareInputText{165}{\~N}
+\DeclareInputMath{166}{\mathordfeminine}
+\DeclareInputMath{167}{\mathordmasculine}
+\DeclareInputText{168}{\textquestiondown}
+\DeclareInputMath{170}{\lnot}
+\DeclareInputText{171}{\textonehalf}
+\DeclareInputText{172}{\textonequarter}
+\DeclareInputText{173}{\textexclamdown}
+\DeclareInputText{174}{\guillemotleft}
+\DeclareInputText{175}{\guillemotright}
+\DeclareInputMath{224}{\alpha}
+\DeclareInputText{225}{\ss}
+\DeclareInputMath{226}{\Gamma}
+\DeclareInputMath{227}{\pi}
+\DeclareInputMath{228}{\Sigma}
+\DeclareInputMath{229}{\sigma}
+\DeclareInputMath{230}{\mu}
+\DeclareInputMath{231}{\tau}
+\DeclareInputMath{232}{\Phi}
+\DeclareInputMath{233}{\Theta}
+\DeclareInputMath{234}{\Omega}
+\DeclareInputMath{235}{\delta}
+\DeclareInputMath{236}{\infty}
+\DeclareInputMath{237}{\phi}
+\DeclareInputMath{238}{\varepsilon}
+\DeclareInputMath{239}{\cap}
+\DeclareInputMath{240}{\equiv}
+\DeclareInputMath{241}{\pm}
+\DeclareInputMath{242}{\ge}
+\DeclareInputMath{243}{\le}
+\DeclareInputMath{246}{\div}
+\DeclareInputMath{247}{\approx}
+\DeclareInputText{248}{\textdegree}
+\DeclareInputText{249}{\textperiodcentered}
+\DeclareInputText{250}{\textbullet}
+\DeclareInputMath{251}{\surd}
+\DeclareInputMath{252}{\mathnsuperior}
+\DeclareInputMath{253}{\mathtwosuperior}
+\DeclareInputText{254}{\textblacksquare}
+\DeclareInputText{255}{\nobreakspace}
+\makeatother
+%%
+%% \CharacterTable
+%%  {Upper-case    \A\B\C\D\E\F\G\H\I\J\K\L\M\N\O\P\Q\R\S\T\U\V\W\X\Y\Z
+%%   Lower-case    \a\b\c\d\e\f\g\h\i\j\k\l\m\n\o\p\q\r\s\t\u\v\w\x\y\z
+%%   Digits        \0\1\2\3\4\5\6\7\8\9
+%%   Exclamation   \!     Double quote  \"     Hash (number) \#
+%%   Dollar        \$     Percent       \%     Ampersand     \&
+%%   Acute accent  \'     Left paren    \(     Right paren   \)
+%%   Asterisk      \*     Plus          \+     Comma         \,
+%%   Minus         \-     Point         \.     Solidus       \/
+%%   Colon         \:     Semicolon     \;     Less than     \<
+%%   Equals        \=     Greater than  \>     Question mark \?
+%%   Commercial at \@     Left bracket  \[     Backslash     \\
+%%   Right bracket \]     Circumflex    \^     Underscore    \_
+%%   Grave accent  \`     Left brace    \{     Vertical bar  \|
+%%   Right brace   \}     Tilde         \~}
+\endinput
+%%
+%% End of file `cp862.def'.
